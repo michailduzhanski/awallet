@@ -32,7 +32,7 @@ struct WatchedTx {
 };
 
 struct MigrationStatus {
-    bool            available;     // Whether the underlying zcashd supports migration?
+    bool            available;     // Whether the underlying arnakd supports migration?
     bool            enabled;
     QString         saplingAddress;
     double          unmigrated;
@@ -146,7 +146,7 @@ private:
     MainWindow*                 main;
     Turnstile*                  turnstile;
 
-    // Sapling turnstile migration status (for the zcashd v2.0.5 tool)
+    // Sapling turnstile migration status (for the arnakd v2.0.5 tool)
     MigrationStatus             migrationStatus;
 
     // Current balance in the UI. If this number updates, then refresh the UI

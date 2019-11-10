@@ -267,8 +267,8 @@
     </message>
     <message>
         <location filename="../src/mainwindow.ui" line="908"/>
-        <source>zcashd</source>
-        <translation>zcashd</translation>
+        <source>arnakd</source>
+        <translation>arnakd</translation>
     </message>
     <message>
         <location filename="../src/mainwindow.ui" line="938"/>
@@ -405,8 +405,8 @@
     </message>
     <message>
         <location filename="../src/mainwindow.ui" line="1172"/>
-        <source>Pay zcash &amp;URI...</source>
-        <translation>PAyer une URI zcash</translation>
+        <source>Pay arnak &amp;URI...</source>
+        <translation>PAyer une URI arnak</translation>
     </message>
     <message>
         <location filename="../src/mainwindow.ui" line="1177"/>
@@ -425,7 +425,7 @@
     </message>
     <message>
         <location filename="../src/mainwindow.ui" line="1190"/>
-        <source>Request zcash...</source>
+        <source>Request arnak...</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -435,17 +435,17 @@
     </message>
     <message>
         <location filename="../src/mainwindow.cpp" line="511"/>
-        <source>Tor configuration is available only when running an embedded zcashd.</source>
-        <translation>La configuration de Tor est disponible uniquement lors de l&apos;exécution du processus zcashd intégré. </translation>
+        <source>Tor configuration is available only when running an embedded arnakd.</source>
+        <translation>La configuration de Tor est disponible uniquement lors de l&apos;exécution du processus arnakd intégré. </translation>
     </message>
     <message>
         <location filename="../src/mainwindow.cpp" line="550"/>
-        <source>You&apos;re using an external zcashd. Please restart zcashd with -rescan</source>
+        <source>You&apos;re using an external arnakd. Please restart arnakd with -rescan</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../src/mainwindow.cpp" line="553"/>
-        <source>You&apos;re using an external zcashd. Please restart zcashd with -reindex</source>
+        <source>You&apos;re using an external arnakd. Please restart arnakd with -reindex</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -525,7 +525,7 @@
     </message>
     <message>
         <location filename="../src/mainwindow.cpp" line="290"/>
-        <source>zcashd is not yet ready. Please wait for the UI to load</source>
+        <source>arnakd is not yet ready. Please wait for the UI to load</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -550,18 +550,18 @@
     </message>
     <message>
         <location filename="../src/mainwindow.cpp" line="890"/>
-        <source>Error paying zcash URI</source>
-        <translation>Erreur lors du payement du URI zcash</translation>
+        <source>Error paying arnak URI</source>
+        <translation>Erreur lors du payement du URI arnak</translation>
     </message>
     <message>
         <location filename="../src/mainwindow.cpp" line="891"/>
-        <source>URI should be of the form &apos;zcash:&lt;addr&gt;?amt=x&amp;memo=y</source>
-        <translation>Le format URI doit être comme suit: &apos;zcash:&lt;addr&gt;?amt=x&amp;memo=y</translation>
+        <source>URI should be of the form &apos;arnak:&lt;addr&gt;?amt=x&amp;memo=y</source>
+        <translation>Le format URI doit être comme suit: &apos;arnak:&lt;addr&gt;?amt=x&amp;memo=y</translation>
     </message>
     <message>
         <location filename="../src/mainwindow.cpp" line="878"/>
-        <source>Paste Zcash URI</source>
-        <translation>Coller le URI Zcash</translation>
+        <source>Paste Arnak URI</source>
+        <translation>Coller le URI Arnak</translation>
     </message>
     <message>
         <source>Could not understand address</source>
@@ -578,8 +578,8 @@
     </message>
     <message>
         <location filename="../src/mainwindow.cpp" line="928"/>
-        <source>The keys will be imported into your connected zcashd node</source>
-        <translation>Les clef seront importées dans votre noeud zcashd connecté</translation>
+        <source>The keys will be imported into your connected arnakd node</source>
+        <translation>Les clef seront importées dans votre noeud arnakd connecté</translation>
     </message>
     <message>
         <location filename="../src/mainwindow.cpp" line="978"/>
@@ -603,8 +603,8 @@
     </message>
     <message>
         <location filename="../src/mainwindow.cpp" line="1002"/>
-        <source>You need to back it up from the machine zcashd is running on</source>
-        <translation>Vous devez effectuer la sauvegarde depuis la machine sur laquelle zcashd est en cours d&apos;exécution</translation>
+        <source>You need to back it up from the machine arnakd is running on</source>
+        <translation>Vous devez effectuer la sauvegarde depuis la machine sur laquelle arnakd est en cours d&apos;exécution</translation>
     </message>
     <message>
         <location filename="../src/mainwindow.cpp" line="1006"/>
@@ -865,7 +865,7 @@ Cette adresse ne semble pas être de type adresse-z</translation>
     </message>
     <message>
         <location filename="../src/migration.ui" line="81"/>
-        <source>If enabled, zcashd will slowly migrate your Sprout shielded funds to your Sapling address. </source>
+        <source>If enabled, arnakd will slowly migrate your Sprout shielded funds to your Sapling address. </source>
         <translation type="unfinished"></translation>
     </message>
 </context>
@@ -952,53 +952,53 @@ Cette adresse ne semble pas être de type adresse-z</translation>
     </message>
     <message>
         <location filename="../src/connection.cpp" line="52"/>
-        <source>Starting embedded zcashd</source>
-        <translation>Démarrage de zcashd intégré</translation>
+        <source>Starting embedded arnakd</source>
+        <translation>Démarrage de arnakd intégré</translation>
     </message>
     <message>
         <location filename="../src/connection.cpp" line="62"/>
-        <source>zcashd is set to run as daemon</source>
-        <translation>zcashd est configuré pour s&apos;exécuter en tant que démon</translation>
+        <source>arnakd is set to run as daemon</source>
+        <translation>arnakd est configuré pour s&apos;exécuter en tant que démon</translation>
     </message>
     <message>
         <location filename="../src/connection.cpp" line="62"/>
-        <source>Waiting for zcashd</source>
-        <translation>En attente de zcashd</translation>
+        <source>Waiting for arnakd</source>
+        <translation>En attente de arnakd</translation>
     </message>
     <message>
         <location filename="../src/connection.cpp" line="77"/>
-        <source>You have zcashd set to start as a daemon, which can cause problems with ZecWallet
+        <source>You have arnakd set to start as a daemon, which can cause problems with ZecWallet
 
-.Please remove the following line from your zcash.conf and restart ZecWallet
+.Please remove the following line from your arnak.conf and restart ZecWallet
 daemon=1</source>
-        <translation>vous avez zcashd configuré pour démarrer en tant que démon ce qui peut causer des problèmes avec ZecWallet
+        <translation>vous avez arnakd configuré pour démarrer en tant que démon ce qui peut causer des problèmes avec ZecWallet
 
- Veuillez enlever la ligne suivante de votre fichier &quot;zcash.conf&quot; et redémarrer ZecWallet:
+ Veuillez enlever la ligne suivante de votre fichier &quot;arnak.conf&quot; et redémarrer ZecWallet:
 daemon=1</translation>
     </message>
     <message>
         <location filename="../src/connection.cpp" line="82"/>
-        <source>Couldn&apos;t start the embedded zcashd.
+        <source>Couldn&apos;t start the embedded arnakd.
 
 Please try restarting.
 
-If you previously started zcashd with custom arguments, you might need to reset zcash.conf.
+If you previously started arnakd with custom arguments, you might need to reset arnak.conf.
 
-If all else fails, please run zcashd manually.</source>
-        <translation>Impossible de démarrer le zcashd intégré.
+If all else fails, please run arnakd manually.</source>
+        <translation>Impossible de démarrer le arnakd intégré.
 
 Veuillez essayer de redémarrer.
 
-Si vous avez précédemment démarré zcashd avec des arguments, vous devrez peut-être réinitialiser le fichier zcash.conf.
+Si vous avez précédemment démarré arnakd avec des arguments, vous devrez peut-être réinitialiser le fichier arnak.conf.
 
-Si tout échoue, exécutez zcashd manuellement.</translation>
+Si tout échoue, exécutez arnakd manuellement.</translation>
     </message>
     <message>
         <location filename="../src/connection.cpp" line="93"/>
-        <source>Couldn&apos;t connect to zcashd configured in zcash.conf.
+        <source>Couldn&apos;t connect to arnakd configured in arnak.conf.
 
-Not starting embedded zcashd because --no-embedded was passed</source>
-        <translation>Le démarrage de zcashd n&apos;a pas eu lieu car l&apos;argument --no-embedded a été utilisé au lancement</translation>
+Not starting embedded arnakd because --no-embedded was passed</source>
+        <translation>Le démarrage de arnakd n&apos;a pas eu lieu car l&apos;argument --no-embedded a été utilisé au lancement</translation>
     </message>
     <message>
         <location filename="../src/connection.cpp" line="146"/>
@@ -1078,18 +1078,18 @@ Not starting embedded zcashd because --no-embedded was passed</source>
     </message>
     <message>
         <location filename="../src/rpc.cpp" line="684"/>
-        <source>Connected to zcashd</source>
-        <translation>Connecté à zcashd</translation>
+        <source>Connected to arnakd</source>
+        <translation>Connecté à arnakd</translation>
     </message>
     <message>
         <location filename="../src/rpc.cpp" line="687"/>
-        <source>zcashd has no peer connections</source>
-        <translation>zcashd n&apos;a aucune connexion à un pair</translation>
+        <source>arnakd has no peer connections</source>
+        <translation>arnakd n&apos;a aucune connexion à un pair</translation>
     </message>
     <message>
         <location filename="../src/rpc.cpp" line="706"/>
-        <source>There was an error connecting to zcashd. The error was</source>
-        <translation>Une erreur est survenue lors de la connection à zcashd. L&apos;erreur est</translation>
+        <source>There was an error connecting to arnakd. The error was</source>
+        <translation>Une erreur est survenue lors de la connection à arnakd. L&apos;erreur est</translation>
     </message>
     <message>
         <location filename="../src/rpc.cpp" line="981"/>
@@ -1155,8 +1155,8 @@ Would you like to visit the releases page?</source>
     </message>
     <message>
         <location filename="../src/rpc.cpp" line="1217"/>
-        <source>Waiting for zcashd to exit</source>
-        <translation>Attente de la fermeture de zcashd</translation>
+        <source>Waiting for arnakd to exit</source>
+        <translation>Attente de la fermeture de arnakd</translation>
     </message>
     <message>
         <location filename="../src/connection.cpp" line="308"/>
@@ -1165,8 +1165,8 @@ Would you like to visit the releases page?</source>
     </message>
     <message>
         <location filename="../src/connection.cpp" line="332"/>
-        <source>zcashd error</source>
-        <translation>erreur zcashd</translation>
+        <source>arnakd error</source>
+        <translation>erreur arnakd</translation>
     </message>
     <message>
         <location filename="../src/connection.cpp" line="399"/>
@@ -1179,22 +1179,22 @@ Veuillez configurer l&apos;hôte/port et utilisateur/mot de passe dans le menu E
     </message>
     <message>
         <location filename="../src/connection.cpp" line="411"/>
-        <source>Could not connect to zcashd configured in settings.
+        <source>Could not connect to arnakd configured in settings.
 
 Please set the host/port and user/password in the Edit-&gt;Settings menu.</source>
-        <translation>Impossible de se connecter au zcashd configuré dans les préférences.
+        <translation>Impossible de se connecter au arnakd configuré dans les préférences.
 
 Veuillez configurer l&apos;hôte/port et utilisateur/mot de passe dans le menu Edition-&gt;Préférences.</translation>
     </message>
     <message>
         <location filename="../src/connection.cpp" line="472"/>
-        <source>Authentication failed. The username / password you specified was not accepted by zcashd. Try changing it in the Edit-&gt;Settings menu</source>
-        <translation>Authentification échouée. Le nom d&apos;utilisateur / mot de passe que vous avez spécifié n&apos;a pas été accepté par zcashd. Essayez de le changer dans le menu Edition-&gt; Préférences</translation>
+        <source>Authentication failed. The username / password you specified was not accepted by arnakd. Try changing it in the Edit-&gt;Settings menu</source>
+        <translation>Authentification échouée. Le nom d&apos;utilisateur / mot de passe que vous avez spécifié n&apos;a pas été accepté par arnakd. Essayez de le changer dans le menu Edition-&gt; Préférences</translation>
     </message>
     <message>
         <location filename="../src/connection.cpp" line="487"/>
-        <source>Your zcashd is starting up. Please wait.</source>
-        <translation>Votre zcashd est en cours de démarrage. Veuillez patienter.</translation>
+        <source>Your arnakd is starting up. Please wait.</source>
+        <translation>Votre arnakd est en cours de démarrage. Veuillez patienter.</translation>
     </message>
     <message>
         <location filename="../src/connection.cpp" line="504"/>
@@ -1247,12 +1247,12 @@ Veuillez configurer l&apos;hôte/port et utilisateur/mot de passe dans le menu E
         <translation>Erreur de format d&apos;adresse</translation>
     </message>
     <message>
-        <source> doesn&apos;t seem to be a valid Zcash address.</source>
-        <translation type="vanished"> ne semble pas être une adresse Zcash valide.</translation>
+        <source> doesn&apos;t seem to be a valid Arnak address.</source>
+        <translation type="vanished"> ne semble pas être une adresse Arnak valide.</translation>
     </message>
     <message>
         <location filename="../src/addressbook.cpp" line="135"/>
-        <source>%1 doesn&apos;t seem to be a valid Zcash address.</source>
+        <source>%1 doesn&apos;t seem to be a valid Arnak address.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -1641,18 +1641,18 @@ Vous avez soit des fonds non confirmés soit le solde est trop petit pour une mi
     </message>
     <message>
         <location filename="../src/requestdialog.ui" line="219"/>
-        <source>Request payment from a Sapling address. You&apos;ll send a ZEC 0.0001 transaction to the address with a zcash payment URI. The memo will be included in the transaction when the address pays you.</source>
+        <source>Request payment from a Sapling address. You&apos;ll send a ZEC 0.0001 transaction to the address with a arnak payment URI. The memo will be included in the transaction when the address pays you.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../src/requestdialog.cpp" line="50"/>
-        <source>Error paying zcash URI</source>
-        <translation type="unfinished">Erreur lors du payement du URI zcash</translation>
+        <source>Error paying arnak URI</source>
+        <translation type="unfinished">Erreur lors du payement du URI arnak</translation>
     </message>
     <message>
         <location filename="../src/requestdialog.cpp" line="51"/>
-        <source>URI should be of the form &apos;zcash:&lt;addr&gt;?amt=x&amp;memo=y</source>
-        <translation type="unfinished">Le format URI doit être comme suit: &apos;zcash:&lt;addr&gt;?amt=x&amp;memo=y</translation>
+        <source>URI should be of the form &apos;arnak:&lt;addr&gt;?amt=x&amp;memo=y</source>
+        <translation type="unfinished">Le format URI doit être comme suit: &apos;arnak:&lt;addr&gt;?amt=x&amp;memo=y</translation>
     </message>
     <message>
         <location filename="../src/requestdialog.cpp" line="65"/>
@@ -1684,8 +1684,8 @@ Vous avez soit des fonds non confirmés soit le solde est trop petit pour une mi
     </message>
     <message>
         <location filename="../src/settings.ui" line="33"/>
-        <source>zcashd connection</source>
-        <translation>connection zcashd</translation>
+        <source>arnakd connection</source>
+        <translation>connection arnakd</translation>
     </message>
     <message>
         <location filename="../src/settings.ui" line="62"/>
@@ -2007,12 +2007,12 @@ Vous avez soit des fonds non confirmés soit le solde est trop petit pour une mi
     </message>
     <message>
         <location filename="../src/confirm.ui" line="183"/>
-        <source>zcashd doesn&apos;t seem to have any peers. You might not be connected to the internet, so this transaction might not work.</source>
+        <source>arnakd doesn&apos;t seem to have any peers. You might not be connected to the internet, so this transaction might not work.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>zcashd doesn&apos;t seem to have any peers. You might not be connected to the internet, so this Transaction might not work.</source>
-        <translation type="vanished">zcashd semble n&apos;avoir aucune connexion à un autre pair. Comme vous n&apos;êtes peut-être pas connecté à Internet, cette transaction pourrait ne pas fonctionner.</translation>
+        <source>arnakd doesn&apos;t seem to have any peers. You might not be connected to the internet, so this Transaction might not work.</source>
+        <translation type="vanished">arnakd semble n&apos;avoir aucune connexion à un autre pair. Comme vous n&apos;êtes peut-être pas connecté à Internet, cette transaction pourrait ne pas fonctionner.</translation>
     </message>
     <message>
         <location filename="../src/confirm.ui" line="196"/>
@@ -2029,7 +2029,7 @@ Vous avez soit des fonds non confirmés soit le solde est trop petit pour une mi
     <name>createZcashConf</name>
     <message>
         <location filename="../src/createzcashconfdialog.ui" line="14"/>
-        <source>Configure zcash.conf</source>
+        <source>Configure arnak.conf</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -2039,7 +2039,7 @@ Vous avez soit des fonds non confirmés soit le solde est trop petit pour une mi
     </message>
     <message>
         <location filename="../src/createzcashconfdialog.ui" line="20"/>
-        <source>Your zcash node will be configured for you automatically</source>
+        <source>Your arnak node will be configured for you automatically</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -2170,8 +2170,8 @@ Vous avez soit des fonds non confirmés soit le solde est trop petit pour une mi
     </message>
     <message>
         <location filename="../src/zboard.ui" line="85"/>
-        <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;ZBoard: Fully anonymous and untraceable chat messages based on the ZCash blockchain. &lt;a href=&quot;http://www.z-board.net/&quot;&gt;&lt;span style=&quot; text-decoration: underline; color:#0000ff;&quot;&gt;http://www.z-board.net/&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Zboard: Messagerie entièrement anonyme et intraçable basée sur la blockchain ZCash.  &lt;a href=&quot;http://www.z-board.net/&quot;&gt;&lt;span style=&quot; text-decoration: underline; color:#0000ff;&quot;&gt;http://www.z-board.net/&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
+        <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;ZBoard: Fully anonymous and untraceable chat messages based on the Arnak blockchain. &lt;a href=&quot;http://www.z-board.net/&quot;&gt;&lt;span style=&quot; text-decoration: underline; color:#0000ff;&quot;&gt;http://www.z-board.net/&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
+        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Zboard: Messagerie entièrement anonyme et intraçable basée sur la blockchain Arnak.  &lt;a href=&quot;http://www.z-board.net/&quot;&gt;&lt;span style=&quot; text-decoration: underline; color:#0000ff;&quot;&gt;http://www.z-board.net/&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
         <location filename="../src/zboard.ui" line="107"/>

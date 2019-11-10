@@ -36,7 +36,7 @@ if [ -z $QT_PATH ]; then
 fi
 
 if [ -z $ZCASH_DIR ]; then
-    echo "ZCASH_DIR is not set. Please set it to the base directory of a compiled zcashd";
+    echo "ZCASH_DIR is not set. Please set it to the base directory of a compiled arnakd";
     exit 1;
 fi
 
@@ -45,8 +45,8 @@ if [ -z $APP_VERSION ]; then
     exit 1;
 fi
 
-if [ ! -f $ZCASH_DIR/src/zcashd ]; then
-    echo "Could not find compiled zcashd in $ZCASH_DIR/src/.";
+if [ ! -f $ZCASH_DIR/src/arnakd ]; then
+    echo "Could not find compiled arnakd in $ZCASH_DIR/src/.";
     exit 1;
 fi
 
@@ -80,8 +80,8 @@ echo -n "Deploying.............."
 mkdir artifacts >/dev/null 2>&1
 rm -f artifcats/zecwallet.dmg >/dev/null 2>&1
 rm -f artifacts/rw* >/dev/null 2>&1
-cp $ZCASH_DIR/src/zcashd zecwallet.app/Contents/MacOS/
-cp $ZCASH_DIR/src/zcash-cli zecwallet.app/Contents/MacOS/
+cp $ZCASH_DIR/src/arnakd zecwallet.app/Contents/MacOS/
+cp $ZCASH_DIR/src/arnak-cli zecwallet.app/Contents/MacOS/
 $QT_PATH/bin/macdeployqt zecwallet.app 
 echo "[OK]"
 

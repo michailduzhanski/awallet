@@ -379,7 +379,7 @@ void Turnstile::doSendTx(Tx tx, std::function<void(void)> cb) {
 }
 
 
-// Methods for zcashd native Migration
+// Methods for arnakd native Migration
 void Turnstile::showZcashdMigration(MainWindow* parent) {
     // If it is not enabled, don't show the dialog
     if (! parent->getRPC()->getMigrationStatus()->available)

@@ -69,7 +69,7 @@ private:
 };
 
 
-// Classes for zcashd 2.0.5 native migration
+// Classes for arnakd 2.0.5 native migration
 
 
 class MigrationTxns : public QAbstractTableModel {
