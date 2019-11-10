@@ -634,7 +634,7 @@ std::shared_ptr<ConnectionConfig> ConnectionLoader::autoDetectZcashConf() {
         if (name == "testnet" &&
             value == "1"  &&
             zcashconf->port.isEmpty()) {
-                zcashconf->port = "18232";
+                zcashconf->port = "15212";
         }
         if (name == "ibdskiptxverification" && value == "1") {
             zcashconf->skiptxverification = true;
@@ -642,7 +642,7 @@ std::shared_ptr<ConnectionConfig> ConnectionLoader::autoDetectZcashConf() {
     }
 
     // If rpcport is not in the file, and it was not set by the testnet=1 flag, then go to default
-    if (zcashconf->port.isEmpty()) zcashconf->port = "8232";
+    if (zcashconf->port.isEmpty()) zcashconf->port = "15202";
     file.close();
 
     // In addition to the arnak.conf file, also double check the params. 
