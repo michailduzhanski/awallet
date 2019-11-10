@@ -60,7 +60,7 @@ export PATH=$PATH:/usr/local/bin
 #Clean
 echo -n "Cleaning..............."
 make distclean >/dev/null 2>&1
-rm -f artifacts/macOS-zecwallet-v$APP_VERSION.dmg
+rm -f artifacts/macOS-arnakwallet-v$APP_VERSION.dmg
 echo "[OK]"
 
 
@@ -78,27 +78,27 @@ echo "[OK]"
 #Qt deploy
 echo -n "Deploying.............."
 mkdir artifacts >/dev/null 2>&1
-rm -f artifcats/zecwallet.dmg >/dev/null 2>&1
+rm -f artifcats/arnakwallet.dmg >/dev/null 2>&1
 rm -f artifacts/rw* >/dev/null 2>&1
-cp $ZCASH_DIR/src/arnakd zecwallet.app/Contents/MacOS/
-cp $ZCASH_DIR/src/arnak-cli zecwallet.app/Contents/MacOS/
-$QT_PATH/bin/macdeployqt zecwallet.app 
+cp $ZCASH_DIR/src/arnakd arnakwallet.app/Contents/MacOS/
+cp $ZCASH_DIR/src/arnak-cli arnakwallet.app/Contents/MacOS/
+$QT_PATH/bin/macdeployqt arnakwallet.app 
 echo "[OK]"
 
 
 echo -n "Building dmg..........."
-mv zecwallet.app ZecWallet.app
-create-dmg --volname "ZecWallet-v$APP_VERSION" --volicon "res/logo.icns" --window-pos 200 120 --icon "ZecWallet.app" 200 190  --app-drop-link 600 185 --hide-extension "ZecWallet.app"  --window-size 800 400 --hdiutil-quiet --background res/dmgbg.png  artifacts/macOS-zecwallet-v$APP_VERSION.dmg ZecWallet.app >/dev/null 2>&1
+mv arnakwallet.app ArnakWallet.app
+create-dmg --volname "ArnakWallet-v$APP_VERSION" --volicon "res/logo.icns" --window-pos 200 120 --icon "ArnakWallet.app" 200 190  --app-drop-link 600 185 --hide-extension "ArnakWallet.app"  --window-size 800 400 --hdiutil-quiet --background res/dmgbg.png  artifacts/macOS-arnakwallet-v$APP_VERSION.dmg ArnakWallet.app >/dev/null 2>&1
 
 #mkdir bin/dmgbuild >/dev/null 2>&1
 #sed "s/RELEASE_VERSION/${APP_VERSION}/g" res/appdmg.json > bin/dmgbuild/appdmg.json
 #cp res/logo.icns bin/dmgbuild/
 #cp res/dmgbg.png bin/dmgbuild/
 
-#cp -r zecwallet.app bin/dmgbuild/
+#cp -r arnakwallet.app bin/dmgbuild/
 
-#appdmg --quiet bin/dmgbuild/appdmg.json artifacts/macOS-zecwallet-v$APP_VERSION.dmg >/dev/null
-if [ ! -f artifacts/macOS-zecwallet-v$APP_VERSION.dmg ]; then
+#appdmg --quiet bin/dmgbuild/appdmg.json artifacts/macOS-arnakwallet-v$APP_VERSION.dmg >/dev/null
+if [ ! -f artifacts/macOS-arnakwallet-v$APP_VERSION.dmg ]; then
     echo "[ERROR]"
     exit 1
 fi

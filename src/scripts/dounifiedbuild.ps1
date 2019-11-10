@@ -7,11 +7,11 @@ param (
 )
 
 Write-Host "[Initializing]"
-Remove-Item -Force -ErrorAction Ignore ./artifacts/linux-binaries-zecwallet-v$version.tar.gz
-Remove-Item -Force -ErrorAction Ignore ./artifacts/linux-deb-zecwallet-v$version.deb
-Remove-Item -Force -ErrorAction Ignore ./artifacts/Windows-binaries-zecwallet-v$version.zip
-Remove-Item -Force -ErrorAction Ignore ./artifacts/Windows-installer-zecwallet-v$version.msi
-Remove-Item -Force -ErrorAction Ignore ./artifacts/macOS-zecwallet-v$version.dmg
+Remove-Item -Force -ErrorAction Ignore ./artifacts/linux-binaries-arnakwallet-v$version.tar.gz
+Remove-Item -Force -ErrorAction Ignore ./artifacts/linux-deb-arnakwallet-v$version.deb
+Remove-Item -Force -ErrorAction Ignore ./artifacts/Windows-binaries-arnakwallet-v$version.zip
+Remove-Item -Force -ErrorAction Ignore ./artifacts/Windows-installer-arnakwallet-v$version.msi
+Remove-Item -Force -ErrorAction Ignore ./artifacts/macOS-arnakwallet-v$version.dmg
 Remove-Item -Force -ErrorAction Ignore ./artifacts/signatures-v$version.tar.gz
 
 
@@ -86,11 +86,11 @@ Write-Host "[OK]"
 
 # Finally, test to make sure all files exist
 Write-Host -NoNewline "Checking Build........."
-if (! (Test-Path ./artifacts/linux-binaries-zecwallet-v$version.tar.gz) -or
-    ! (Test-Path ./artifacts/linux-deb-zecwallet-v$version.deb) -or
-    ! (Test-Path ./artifacts/Windows-binaries-zecwallet-v$version.zip) -or
-    ! (Test-Path ./artifacts/macOS-zecwallet-v$version.dmg) -or 
-    ! (Test-Path ./artifacts/Windows-installer-zecwallet-v$version.msi) ) {
+if (! (Test-Path ./artifacts/linux-binaries-arnakwallet-v$version.tar.gz) -or
+    ! (Test-Path ./artifacts/linux-deb-arnakwallet-v$version.deb) -or
+    ! (Test-Path ./artifacts/Windows-binaries-arnakwallet-v$version.zip) -or
+    ! (Test-Path ./artifacts/macOS-arnakwallet-v$version.dmg) -or 
+    ! (Test-Path ./artifacts/Windows-installer-arnakwallet-v$version.msi) ) {
         Write-Host "[Error]"
         exit 1;
     }

@@ -1,13 +1,13 @@
 [Desktop Entry]
-Name=ZecWallet
+Name=ArnakWallet
 Comment=Full node and wallet for Arnak
 GenericName=Wallet
-Exec=/usr/local/bin/zecwallet %u
-Icon=zecwallet.xpm
+Exec=/usr/local/bin/arnakwallet %u
+Icon=arnakwallet.xpm
 Type=Application
 StartupNotify=true
-StartupWMClass=zecwallet
+StartupWMClass=arnakwallet
 Categories=Utility;
 MimeType=x-scheme-handler/arnak;
-Keywords=zecwallet;
+Keywords=arnakwallet;
 

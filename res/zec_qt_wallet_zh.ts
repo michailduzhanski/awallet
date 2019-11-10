@@ -31,7 +31,7 @@
     <name>ConnectionDialog</name>
     <message>
         <location filename="../src/connection.ui" line="17"/>
-        <source>ZecWallet</source>
+        <source>ArnakWallet</source>
         <translation>ZEC钱包</translation>
     </message>
     <message>
@@ -44,7 +44,7 @@
     <name>MainWindow</name>
     <message>
         <location filename="../src/mainwindow.ui" line="14"/>
-        <source>ZecWallet</source>
+        <source>ArnakWallet</source>
         <translation>ZEC钱包</translation>
     </message>
     <message>
@@ -462,7 +462,7 @@
     </message>
     <message>
         <location filename="../src/mainwindow.cpp" line="579"/>
-        <source>Connection over Tor has been enabled. To use this feature, you need to restart ZecWallet.</source>
+        <source>Connection over Tor has been enabled. To use this feature, you need to restart ArnakWallet.</source>
         <translation>已启用Tor上的连接。 要使用此功能，您需要重新启动ZecWallet。</translation>
     </message>
     <message>
@@ -472,22 +472,22 @@
     </message>
     <message>
         <location filename="../src/mainwindow.cpp" line="589"/>
-        <source>Connection over Tor has been disabled. To fully disconnect from Tor, you need to restart ZecWallet.</source>
+        <source>Connection over Tor has been disabled. To fully disconnect from Tor, you need to restart ArnakWallet.</source>
         <translation>Tor上的连接已被禁用。 要完全断开与Tor的连接，您需要重新启动ZecWallet。</translation>
     </message>
     <message>
         <location filename="../src/mainwindow.cpp" line="618"/>
-        <source>ZecWallet needs to restart to rescan/reindex. ZecWallet will now close, please restart ZecWallet to continue</source>
+        <source>ArnakWallet needs to restart to rescan/reindex. ArnakWallet will now close, please restart ArnakWallet to continue</source>
         <translation>ZecWallet需要重新启动才能重新扫描/重新索引。 ZecWallet现在关闭，请重启ZecWallet以继续</translation>
     </message>
     <message>
         <location filename="../src/mainwindow.cpp" line="620"/>
-        <source>Restart ZecWallet</source>
+        <source>Restart ArnakWallet</source>
         <translation>重启ZecWallet</translation>
     </message>
     <message>
         <location filename="../src/mainwindow.cpp" line="649"/>
-        <source>Thanks for supporting ZecWallet!</source>
+        <source>Thanks for supporting ArnakWallet!</source>
         <translation>感谢您支持ZecWallet！</translation>
     </message>
     <message>
@@ -497,7 +497,7 @@
     </message>
     <message>
         <location filename="../src/mainwindow.cpp" line="651"/>
-        <source> to support ZecWallet</source>
+        <source> to support ArnakWallet</source>
         <translation> 支持ZecWallet</translation>
     </message>
     <message>
@@ -861,7 +861,7 @@ doesn&apos;t look like a z-address</source>
     </message>
     <message>
         <location filename="../src/mobileappconnector.ui" line="36"/>
-        <source>Scan this QRCode from your ZecWallet companion app to connect your phone</source>
+        <source>Scan this QRCode from your ArnakWallet companion app to connect your phone</source>
         <translation>从您的ZecWallet配套应用程序扫描此二维码以连接您的手机</translation>
     </message>
     <message>
@@ -876,12 +876,12 @@ doesn&apos;t look like a z-address</source>
     </message>
     <message>
         <location filename="../src/mobileappconnector.ui" line="84"/>
-        <source>Allow connections over the internet via ZecWallet wormhole</source>
+        <source>Allow connections over the internet via ArnakWallet wormhole</source>
         <translation>允许通过ZecWallet虫洞连接互联网</translation>
     </message>
     <message>
         <location filename="../src/mobileappconnector.ui" line="94"/>
-        <source>ZecWallet Companion App</source>
+        <source>ArnakWallet Companion App</source>
         <translation>ZecWallet配套App</translation>
     </message>
     <message>
@@ -1012,9 +1012,9 @@ doesn&apos;t look like a z-address</source>
     </message>
     <message>
         <location filename="../src/connection.cpp" line="77"/>
-        <source>You have arnakd set to start as a daemon, which can cause problems with ZecWallet
+        <source>You have arnakd set to start as a daemon, which can cause problems with ArnakWallet
 
-.Please remove the following line from your arnak.conf and restart ZecWallet
+.Please remove the following line from your arnak.conf and restart ArnakWallet
 daemon=1</source>
         <translation>你已经将arnakd设置为守护进程启动，这可能会导致ZecWallet出现问题
 
@@ -1304,7 +1304,7 @@ Would you like to visit the releases page?</source>
     </message>
     <message>
         <location filename="../src/rpc.cpp" line="1216"/>
-        <source>Please wait for ZecWallet to exit</source>
+        <source>Please wait for ArnakWallet to exit</source>
         <translation>请等待ZecWallet退出</translation>
     </message>
     <message>
@@ -1367,7 +1367,7 @@ You either have unconfirmed funds or the balance is too low for an automatic mig
     </message>
     <message>
         <location filename="../src/websockets.cpp" line="359"/>
-        <source>Connected over the internet via ZecWallet wormhole service</source>
+        <source>Connected over the internet via ArnakWallet wormhole service</source>
         <translation>通过ZecWallet虫洞服务连接互联网</translation>
     </message>
     <message>
@@ -1513,7 +1513,7 @@ You either have unconfirmed funds or the balance is too low for an automatic mig
     </message>
     <message>
         <location filename="../src/recurringmultiple.ui" line="44"/>
-        <source>How should ZecWallet proceed?</source>
+        <source>How should ArnakWallet proceed?</source>
         <translation>ZecWallet应该如何处理？</translation>
     </message>
     <message>
@@ -1764,7 +1764,7 @@ You either have unconfirmed funds or the balance is too low for an automatic mig
     </message>
     <message>
         <location filename="../src/settings.ui" line="301"/>
-        <source>Rescan the blockchain for any missing wallet transactions and to correct your wallet balance. This may take several hours. You need to restart ZecWallet for this to take effect</source>
+        <source>Rescan the blockchain for any missing wallet transactions and to correct your wallet balance. This may take several hours. You need to restart ArnakWallet for this to take effect</source>
         <translation>重新扫描区块链以查找任何丢失的钱包交易并更正您的钱包余额。 这可能需要几个小时。 您需要重新启动ZecWallet才能使其生效</translation>
     </message>
     <message>
@@ -1774,7 +1774,7 @@ You either have unconfirmed funds or the balance is too low for an automatic mig
     </message>
     <message>
         <location filename="../src/settings.ui" line="345"/>
-        <source>Rebuild the entire blockchain from the genesis block, by rescanning all the block files. This may take several hours to days, depending on your hardware. You need to restart ZecWallet for this to take effect</source>
+        <source>Rebuild the entire blockchain from the genesis block, by rescanning all the block files. This may take several hours to days, depending on your hardware. You need to restart ArnakWallet for this to take effect</source>
         <translation>通过重新扫描所有区块文件，从创世块重建整个区块链。 这可能需要几个小时到几天，具体取决于您的硬件环境。 您需要重新启动ZecWallet才能使其生效</translation>
     </message>
 </context>
@@ -2055,8 +2055,8 @@ You either have unconfirmed funds or the balance is too low for an automatic mig
     </message>
     <message>
         <location filename="../src/createarnakconfdialog.ui" line="205"/>
-        <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Skips the most expensive checks during the initial block download. &lt;a href=&quot;https://docs.zecwallet.co/using-zecwallet/#fastsync&quot;&gt;&lt;span style=&quot; text-decoration: underline; color:#0000ff;&quot;&gt;Learn More&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;在初始块下载期间跳过了最费时的检查。 &lt;a href=&quot;https://docs.zecwallet.co/using-zecwallet/#fastsync&quot;&gt;&lt;span style=&quot; text-decoration: underline; color:#0000ff;&quot;&gt;了解更多&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
+        <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Skips the most expensive checks during the initial block download. &lt;a href=&quot;https://docs.arnakwallet.co/using-arnakwallet/#fastsync&quot;&gt;&lt;span style=&quot; text-decoration: underline; color:#0000ff;&quot;&gt;Learn More&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
+        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;在初始块下载期间跳过了最费时的检查。 &lt;a href=&quot;https://docs.arnakwallet.co/using-arnakwallet/#fastsync&quot;&gt;&lt;span style=&quot; text-decoration: underline; color:#0000ff;&quot;&gt;了解更多&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
 </context>
 <context>

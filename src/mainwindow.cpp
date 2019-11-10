@@ -423,7 +423,7 @@ void MainWindow::setupTurnstileDialog() {
         if (rpc->getMigrationStatus()->available && !rpc->getTurnstile()->isMigrationPresent()) {
             Turnstile::showZcashdMigration(this);
         } else {
-            // Else, show the ZecWallet turnstile tool
+            // Else, show the ArnakWallet turnstile tool
 
             // If there is current migration that is present, show the progress button
             if (rpc->getTurnstile()->isMigrationPresent())
@@ -508,7 +508,7 @@ void MainWindow::setupSettingsModal() {
         QObject::connect(settings.comboBoxTheme, &QComboBox::currentTextChanged, [=] (QString theme_name) {
             this->slot_change_theme(theme_name);
             // Tell the user to restart
-            QMessageBox::information(this, tr("Restart"), tr("Please restart ZecWallet to have the theme apply"), QMessageBox::Ok);
+            QMessageBox::information(this, tr("Restart"), tr("Please restart ArnakWallet to have the theme apply"), QMessageBox::Ok);
         });
 
         // Save sent transactions
@@ -603,7 +603,7 @@ void MainWindow::setupSettingsModal() {
                 rpc->getConnection()->config->proxy = "proxy=127.0.0.1:9050";
 
                 QMessageBox::information(this, tr("Enable Tor"), 
-                    tr("Connection over Tor has been enabled. To use this feature, you need to restart ZecWallet."), 
+                    tr("Connection over Tor has been enabled. To use this feature, you need to restart ArnakWallet."), 
                     QMessageBox::Ok);
             }
 
@@ -613,7 +613,7 @@ void MainWindow::setupSettingsModal() {
                 rpc->getConnection()->config->proxy.clear();
 
                 QMessageBox::information(this, tr("Disable Tor"),
-                    tr("Connection over Tor has been disabled. To fully disconnect from Tor, you need to restart ZecWallet."),
+                    tr("Connection over Tor has been disabled. To fully disconnect from Tor, you need to restart ArnakWallet."),
                     QMessageBox::Ok);
             }
 
@@ -642,9 +642,9 @@ void MainWindow::setupSettingsModal() {
             }
 
             if (showRestartInfo) {
-                auto desc = tr("ZecWallet needs to restart to rescan/reindex. ZecWallet will now close, please restart ZecWallet to continue");
+                auto desc = tr("ArnakWallet needs to restart to rescan/reindex. ArnakWallet will now close, please restart ArnakWallet to continue");
                 
-                QMessageBox::information(this, tr("Restart ZecWallet"), desc, QMessageBox::Ok);
+                QMessageBox::information(this, tr("Restart ArnakWallet"), desc, QMessageBox::Ok);
                 QTimer::singleShot(1, [=]() { this->close(); });
             }
         }
@@ -673,9 +673,9 @@ void MainWindow::donate() {
     ui->Address1->setText(Settings::getDonationAddr());
     ui->Address1->setCursorPosition(0);
     ui->Amount1->setText("0.01");
-    ui->MemoTxt1->setText(tr("Thanks for supporting ZecWallet!"));
+    ui->MemoTxt1->setText(tr("Thanks for supporting ArnakWallet!"));
 
-    ui->statusBar->showMessage(tr("Donate 0.01 ") % Settings::getTokenName() % tr(" to support ZecWallet"));
+    ui->statusBar->showMessage(tr("Donate 0.01 ") % Settings::getTokenName() % tr(" to support ArnakWallet"));
 
     // And switch to the send tab.
     ui->tabWidget->setCurrentIndex(1);
