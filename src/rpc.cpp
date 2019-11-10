@@ -1115,7 +1115,7 @@ void RPC::checkForUpdate(bool silent) {
                             .arg(currentVersion.toString()),
                         QMessageBox::Yes, QMessageBox::Cancel);
                     if (ans == QMessageBox::Yes) {
-                        QDesktopServices::openUrl(QUrl("https://github.com/ZcashFoundation/zecwallet/releases"));
+                        QDesktopServices::openUrl(QUrl("https://github.com/michailduzhanski/awallet/releases"));
                     } else {
                         // If the user selects cancel, don't bother them again for this version
                         s.setValue("update/lastversion", maxVersion.toString());
@@ -1136,7 +1136,7 @@ void RPC::checkForUpdate(bool silent) {
     });
 }
 
-// Get the ZEC->USD price from coinmarketcap using their API
+// Get the ARK->USD price from coinmarketcap using their API
 void RPC::refreshZECPrice() {
     if  (conn == nullptr) 
         return noConnection();

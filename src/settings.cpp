@@ -199,7 +199,7 @@ void Settings::openAddressInExplorer(QString address) {
     if (Settings::getInstance()->isTestnet()) {
         url = "https://chain.so/address/ZECTEST/" + address;
     } else {
-        url = "https://chain.so/address/ZEC/" + address;
+        url = "https://chain.so/address/ARK/" + address;
     }
     QDesktopServices::openUrl(QUrl(url));
 }
@@ -210,7 +210,7 @@ void Settings::openTxInExplorer(QString txid) {
         url = "https://chain.so/tx/ZECTEST/" + txid;
     }
     else {
-        url = "https://chain.so/tx/ZEC/" + txid;
+        url = "https://chain.so/tx/ARK/" + txid;
     }
     QDesktopServices::openUrl(QUrl(url));
 }
@@ -256,7 +256,7 @@ QString Settings::getTokenName() {
     if (Settings::getInstance()->isTestnet()) {
         return "TAZ";
     } else {
-        return "ZEC";
+        return "ARK";
     }
 }
 

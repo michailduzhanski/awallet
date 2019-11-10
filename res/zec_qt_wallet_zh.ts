@@ -393,7 +393,7 @@
     <message>
         <location filename="../src/mainwindow.ui" line="1172"/>
         <source>Pay arnak &amp;URI...</source>
-        <translation>支付zcash &amp;URI ...</translation>
+        <translation>支付arnak &amp;URI ...</translation>
     </message>
     <message>
         <location filename="../src/mainwindow.ui" line="1177"/>
@@ -428,7 +428,7 @@
     <message>
         <location filename="../src/mainwindow.cpp" line="290"/>
         <source>arnakd is not yet ready. Please wait for the UI to load</source>
-        <translation>zcashd尚未准备好。 请等待UI加载</translation>
+        <translation>arnakd尚未准备好。 请等待UI加载</translation>
     </message>
     <message>
         <location filename="../src/mainwindow.cpp" line="444"/>
@@ -443,17 +443,17 @@
     <message>
         <location filename="../src/mainwindow.cpp" line="511"/>
         <source>Tor configuration is available only when running an embedded arnakd.</source>
-        <translation>Tor配置仅在运行嵌入的zcashd时可用。</translation>
+        <translation>Tor配置仅在运行嵌入的arnakd时可用。</translation>
     </message>
     <message>
         <location filename="../src/mainwindow.cpp" line="550"/>
         <source>You&apos;re using an external arnakd. Please restart arnakd with -rescan</source>
-        <translation>你正在使用外部zcashd。 请使用-rescan参数重新启动zcashd</translation>
+        <translation>你正在使用外部arnakd。 请使用-rescan参数重新启动arnakd</translation>
     </message>
     <message>
         <location filename="../src/mainwindow.cpp" line="553"/>
         <source>You&apos;re using an external arnakd. Please restart arnakd with -reindex</source>
-        <translation>你正在使用外部zcashd。 请使用-reindex重新启动zcashd</translation>
+        <translation>你正在使用外部arnakd。 请使用-reindex重新启动arnakd</translation>
     </message>
     <message>
         <location filename="../src/mainwindow.cpp" line="578"/>
@@ -538,7 +538,7 @@
     <message>
         <location filename="../src/mainwindow.cpp" line="890"/>
         <source>Error paying arnak URI</source>
-        <translation>支付zcash URI时出错</translation>
+        <translation>支付arnak URI时出错</translation>
     </message>
     <message>
         <location filename="../src/mainwindow.cpp" line="891"/>
@@ -553,7 +553,7 @@
     <message>
         <location filename="../src/mainwindow.cpp" line="928"/>
         <source>The keys will be imported into your connected arnakd node</source>
-        <translation>密钥将导入已连接的zcashd节点</translation>
+        <translation>密钥将导入已连接的arnakd节点</translation>
     </message>
     <message>
         <location filename="../src/mainwindow.cpp" line="959"/>
@@ -583,7 +583,7 @@
     <message>
         <location filename="../src/mainwindow.cpp" line="1002"/>
         <source>You need to back it up from the machine arnakd is running on</source>
-        <translation>你需要从运行zcashd的机器备份它</translation>
+        <translation>你需要从运行arnakd的机器备份它</translation>
     </message>
     <message>
         <location filename="../src/mainwindow.cpp" line="1006"/>
@@ -841,7 +841,7 @@ doesn&apos;t look like a z-address</source>
     <message>
         <location filename="../src/migration.ui" line="81"/>
         <source>If enabled, arnakd will slowly migrate your Sprout shielded funds to your Sapling address. </source>
-        <translation>如果启用，zcashd将慢慢将您的Sprout屏蔽资金迁移到您的Sapling地址。 </translation>
+        <translation>如果启用，arnakd将慢慢将您的Sprout屏蔽资金迁移到您的Sapling地址。 </translation>
     </message>
 </context>
 <context>
@@ -998,17 +998,17 @@ doesn&apos;t look like a z-address</source>
     <message>
         <location filename="../src/connection.cpp" line="52"/>
         <source>Starting embedded arnakd</source>
-        <translation>启动内嵌的zcashd</translation>
+        <translation>启动内嵌的arnakd</translation>
     </message>
     <message>
         <location filename="../src/connection.cpp" line="62"/>
         <source>arnakd is set to run as daemon</source>
-        <translation>zcashd设置为作为守护进程运行</translation>
+        <translation>arnakd设置为作为守护进程运行</translation>
     </message>
     <message>
         <location filename="../src/connection.cpp" line="62"/>
         <source>Waiting for arnakd</source>
-        <translation>等待zcashd</translation>
+        <translation>等待arnakd</translation>
     </message>
     <message>
         <location filename="../src/connection.cpp" line="77"/>
@@ -1016,7 +1016,7 @@ doesn&apos;t look like a z-address</source>
 
 .Please remove the following line from your arnak.conf and restart ZecWallet
 daemon=1</source>
-        <translation>你已经将zcashd设置为守护进程启动，这可能会导致ZecWallet出现问题
+        <translation>你已经将arnakd设置为守护进程启动，这可能会导致ZecWallet出现问题
 
 。请从arnak.conf中删除以下行并重新启动ZecWallet
 daemon=1</translation>
@@ -1030,13 +1030,13 @@ Please try restarting.
 If you previously started arnakd with custom arguments, you might need to reset arnak.conf.
 
 If all else fails, please run arnakd manually.</source>
-        <translation>无法启动内嵌的zcashd。
+        <translation>无法启动内嵌的arnakd。
 
 请尝试重新启动。
 
-如果您之前使用自定义参数启动了zcashd，则可能需要重置arnak.conf。
+如果您之前使用自定义参数启动了arnakd，则可能需要重置arnak.conf。
 
-如果所有其他方法都失败了，请手动运行zcashd。</translation>
+如果所有其他方法都失败了，请手动运行arnakd。</translation>
     </message>
     <message>
         <location filename="../src/connection.cpp" line="85"/>
@@ -1048,9 +1048,9 @@ If all else fails, please run arnakd manually.</source>
         <source>Couldn&apos;t connect to arnakd configured in arnak.conf.
 
 Not starting embedded arnakd because --no-embedded was passed</source>
-        <translation>无法连接到arnak.conf中配置的zcashd。
+        <translation>无法连接到arnak.conf中配置的arnakd。
 
-没有启动内嵌的zcashd，因为已经传了--no-embedded参数</translation>
+没有启动内嵌的arnakd，因为已经传了--no-embedded参数</translation>
     </message>
     <message>
         <location filename="../src/connection.cpp" line="146"/>
@@ -1122,19 +1122,19 @@ Please set the host/port and user/password in the Edit-&gt;Settings menu.</sourc
         <source>Could not connect to arnakd configured in settings.
 
 Please set the host/port and user/password in the Edit-&gt;Settings menu.</source>
-        <translation>无法连接到设置中配置的zcashd。
+        <translation>无法连接到设置中配置的arnakd。
 
 请在编辑 - &gt;设置菜单中设置主机/端口和用户/密码。</translation>
     </message>
     <message>
         <location filename="../src/connection.cpp" line="472"/>
         <source>Authentication failed. The username / password you specified was not accepted by arnakd. Try changing it in the Edit-&gt;Settings menu</source>
-        <translation>验证失败。 zcashd不接受您指定的用户名/密码。 请在编辑 - &gt;设置菜单中更改它</translation>
+        <translation>验证失败。 arnakd不接受您指定的用户名/密码。 请在编辑 - &gt;设置菜单中更改它</translation>
     </message>
     <message>
         <location filename="../src/connection.cpp" line="487"/>
         <source>Your arnakd is starting up. Please wait.</source>
-        <translation>你的zcashd正在启动。 请耐心等待。</translation>
+        <translation>你的arnakd正在启动。 请耐心等待。</translation>
     </message>
     <message>
         <location filename="../src/connection.cpp" line="504"/>
@@ -1192,7 +1192,7 @@ Please set the host/port and user/password in the Edit-&gt;Settings menu.</sourc
     </message>
     <message>
         <location filename="../src/recurring.cpp" line="469"/>
-        <source>No ZEC price was available to convert from USD</source>
+        <source>No ARK price was available to convert from USD</source>
         <translation>ZEC的美元价格无法获取</translation>
     </message>
     <message>
@@ -1261,17 +1261,17 @@ Please set the host/port and user/password in the Edit-&gt;Settings menu.</sourc
     <message>
         <location filename="../src/rpc.cpp" line="684"/>
         <source>Connected to arnakd</source>
-        <translation>连接到zcashd</translation>
+        <translation>连接到arnakd</translation>
     </message>
     <message>
         <location filename="../src/rpc.cpp" line="687"/>
         <source>arnakd has no peer connections</source>
-        <translation>zcashd没有节点可连接</translation>
+        <translation>arnakd没有节点可连接</translation>
     </message>
     <message>
         <location filename="../src/rpc.cpp" line="706"/>
         <source>There was an error connecting to arnakd. The error was</source>
-        <translation>连接到zcashd时出错。 错误是</translation>
+        <translation>连接到arnakd时出错。 错误是</translation>
     </message>
     <message>
         <location filename="../src/rpc.cpp" line="1066"/>
@@ -1310,7 +1310,7 @@ Would you like to visit the releases page?</source>
     <message>
         <location filename="../src/rpc.cpp" line="1217"/>
         <source>Waiting for arnakd to exit</source>
-        <translation>等待zcashd退出</translation>
+        <translation>等待arnakd退出</translation>
     </message>
     <message>
         <location filename="../src/settings.cpp" line="244"/>
@@ -1616,13 +1616,13 @@ You either have unconfirmed funds or the balance is too low for an automatic mig
     </message>
     <message>
         <location filename="../src/requestdialog.ui" line="219"/>
-        <source>Request payment from a Sapling address. You&apos;ll send a ZEC 0.0001 transaction to the address with a arnak payment URI. The memo will be included in the transaction when the address pays you.</source>
-        <translation>要求从树苗地址付款。 您将使用zcash支付URI将ZEC 0.0001交易发送到该地址。 当地址付款时，备注将包含在交易中。</translation>
+        <source>Request payment from a Sapling address. You&apos;ll send a ARK 0.0001 transaction to the address with a arnak payment URI. The memo will be included in the transaction when the address pays you.</source>
+        <translation>要求从树苗地址付款。 您将使用arnak支付URI将ZEC 0.0001交易发送到该地址。 当地址付款时，备注将包含在交易中。</translation>
     </message>
     <message>
         <location filename="../src/requestdialog.cpp" line="50"/>
         <source>Error paying arnak URI</source>
-        <translation>支付zcash URI时出错</translation>
+        <translation>支付arnak URI时出错</translation>
     </message>
     <message>
         <location filename="../src/requestdialog.cpp" line="51"/>
@@ -1660,7 +1660,7 @@ You either have unconfirmed funds or the balance is too low for an automatic mig
     <message>
         <location filename="../src/settings.ui" line="33"/>
         <source>arnakd connection</source>
-        <translation>zcashd连接</translation>
+        <translation>arnakd连接</translation>
     </message>
     <message>
         <location filename="../src/settings.ui" line="62"/>
@@ -1744,13 +1744,13 @@ You either have unconfirmed funds or the balance is too low for an automatic mig
     </message>
     <message>
         <location filename="../src/settings.ui" line="273"/>
-        <source>Connect to the internet to fetch ZEC prices</source>
+        <source>Connect to the internet to fetch ARK prices</source>
         <translation>连接到互联网以获取ZEC价格</translation>
     </message>
     <message>
         <location filename="../src/settings.ui" line="280"/>
-        <source>Fetch ZEC / USD prices</source>
-        <translation>获取 ZEC/USD 价格</translation>
+        <source>Fetch ARK / USD prices</source>
+        <translation>获取 ARK/USD 价格</translation>
     </message>
     <message>
         <location filename="../src/settings.ui" line="288"/>
@@ -1983,7 +1983,7 @@ You either have unconfirmed funds or the balance is too low for an automatic mig
     <message>
         <location filename="../src/confirm.ui" line="183"/>
         <source>arnakd doesn&apos;t seem to have any peers. You might not be connected to the internet, so this transaction might not work.</source>
-        <translation>zcashd似乎没有任何可连接的节点。 您可能没有连接到互联网，因此此交易可能无效。</translation>
+        <translation>arnakd似乎没有任何可连接的节点。 您可能没有连接到互联网，因此此交易可能无效。</translation>
     </message>
     <message>
         <location filename="../src/confirm.ui" line="196"/>
@@ -1999,62 +1999,62 @@ You either have unconfirmed funds or the balance is too low for an automatic mig
 <context>
     <name>createZcashConf</name>
     <message>
-        <location filename="../src/createzcashconfdialog.ui" line="14"/>
+        <location filename="../src/createarnakconfdialog.ui" line="14"/>
         <source>Configure arnak.conf</source>
         <translation>配置 arnak.conf</translation>
     </message>
     <message>
-        <location filename="../src/createzcashconfdialog.ui" line="20"/>
+        <location filename="../src/createarnakconfdialog.ui" line="20"/>
         <source>Your arnak node will be configured for you automatically</source>
-        <translation>您的zcash节点将自动为您配置</translation>
+        <translation>您的arnak节点将自动为您配置</translation>
     </message>
     <message>
-        <location filename="../src/createzcashconfdialog.ui" line="30"/>
+        <location filename="../src/createarnakconfdialog.ui" line="30"/>
         <source>Enable Fast Sync</source>
         <translation>启用快速同步</translation>
     </message>
     <message>
-        <location filename="../src/createzcashconfdialog.ui" line="42"/>
+        <location filename="../src/createarnakconfdialog.ui" line="42"/>
         <source>Show Advanced Configuration</source>
         <translation>显示高级配置</translation>
     </message>
     <message>
-        <location filename="../src/createzcashconfdialog.ui" line="112"/>
-        <source>Allow connections to the internet to check for updates, get ZEC/USD prices etc...</source>
+        <location filename="../src/createarnakconfdialog.ui" line="112"/>
+        <source>Allow connections to the internet to check for updates, get ARK/USD prices etc...</source>
         <translation>允许连接到互联网检查更新，获得ZEC/USD价格等…</translation>
     </message>
     <message>
-        <location filename="../src/createzcashconfdialog.ui" line="119"/>
+        <location filename="../src/createarnakconfdialog.ui" line="119"/>
         <source>Use custom datadir</source>
         <translation>使用自定义datadir</translation>
     </message>
     <message>
-        <location filename="../src/createzcashconfdialog.ui" line="128"/>
+        <location filename="../src/createarnakconfdialog.ui" line="128"/>
         <source>Choose directory</source>
         <translation>选择目录</translation>
     </message>
     <message>
-        <location filename="../src/createzcashconfdialog.ui" line="157"/>
+        <location filename="../src/createarnakconfdialog.ui" line="157"/>
         <source>Please note that you&apos;ll need to already have a Tor service configured on port 9050</source>
         <translation>请注意，您需要在端口9050上已经配置了Tor服务</translation>
     </message>
     <message>
-        <location filename="../src/createzcashconfdialog.ui" line="164"/>
+        <location filename="../src/createarnakconfdialog.ui" line="164"/>
         <source>Connect to the internet for updates and price feeds</source>
         <translation>连接到internet获取更新和价格数据</translation>
     </message>
     <message>
-        <location filename="../src/createzcashconfdialog.ui" line="174"/>
+        <location filename="../src/createarnakconfdialog.ui" line="174"/>
         <source>Please choose a directory to store your wallet.dat and blockchain</source>
         <translation>请选择一个目录来存储您的wallet.dat和区块链数据</translation>
     </message>
     <message>
-        <location filename="../src/createzcashconfdialog.ui" line="181"/>
+        <location filename="../src/createarnakconfdialog.ui" line="181"/>
         <source>Connect over Tor</source>
         <translation>连接到Tor</translation>
     </message>
     <message>
-        <location filename="../src/createzcashconfdialog.ui" line="205"/>
+        <location filename="../src/createarnakconfdialog.ui" line="205"/>
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Skips the most expensive checks during the initial block download. &lt;a href=&quot;https://docs.zecwallet.co/using-zecwallet/#fastsync&quot;&gt;&lt;span style=&quot; text-decoration: underline; color:#0000ff;&quot;&gt;Learn More&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
         <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;在初始块下载期间跳过了最费时的检查。 &lt;a href=&quot;https://docs.zecwallet.co/using-zecwallet/#fastsync&quot;&gt;&lt;span style=&quot; text-decoration: underline; color:#0000ff;&quot;&gt;了解更多&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
